@@ -1,0 +1,22 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+font-family: monospace;
+font-size: 16px;
+color: grey;
+text-align: center;
+}
+
+header {
+    padding: 40px;
+    margin: 30%;
+}
+
+section {
+    height: 150px;
+    border: 1px solid black
+}
