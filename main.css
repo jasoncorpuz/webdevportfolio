@@ -7,16 +7,31 @@
 body {
 font-family: monospace;
 font-size: 16px;
-color: grey;
 text-align: center;
 }
 
 header {
-    padding: 40px;
-    margin: 30%;
+    padding: 30px;
+    margin: 20%;
 }
 
 section {
     height: 150px;
     border: 1px solid black
+}
+
+.bio {
+    background-color:rgba(128, 128, 128, 0.295)
+}
+
+.projects {
+    background-color:rgba(128, 128, 128, 0.404);
+}
+
+.screenshots{
+    background-color: rgba(95, 95, 95, 0.753);
+}
+
+.contact-info{
+    background-color:grey;
 }
