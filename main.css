@@ -4,6 +4,28 @@
     padding: 0;
 }
 
+.navbar{
+    position: relative;
+    background-color: #7B9BB3;
+    display: block;
+    width: 100%;
+    top:-100px;
+}
+
+.show {
+    top:0px;
+}
+
+.navbarlinks{
+    display:block;
+}
+
+.fakemenu {
+    background-color: #7B9BB3;
+    height: 60px;
+}
+
+
 body {
 font-family: monospace;
 font-size: 16px;
@@ -11,13 +33,41 @@ text-align: center;
 }
 
 header {
-    padding: 30px;
-    margin: 20%;
+    padding: 40px;
+    margin: 15%;
+    
+}
+
+ul{
+    padding: 10px;
+}
+
+ul li {
+    display: inline-block;
+}
+
+h1, h2, h3 {
+    text-align: center;
+    font-family: 'Quando', serif;
+}
+
+h2,h3 {
+    
+    margin: 20px
+}
+
+
+p {
+    font-family: 'Judson', serif;  
+    padding: 14px;
 }
 
 section {
-    height: 150px;
-    border: 1px solid black
+    border: 1px solid black;
+    text-align: left;
+    margin: 10%;
+    line-height: 30px
+    
 }
 
 .bio {
@@ -28,10 +78,67 @@ section {
     background-color:rgba(128, 128, 128, 0.404);
 }
 
-.screenshots{
+.screenshot{
     background-color: rgba(95, 95, 95, 0.753);
+
 }
 
 .contact-info{
-    background-color:grey;
+    background-color:#B39569;
 }
+
+
+img{
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    margin-top: 20px;
+}
+
+.hamburger{
+    background:none;
+    position:absolute;
+    top:0;
+    right:0;
+    line-height:45px;
+    padding:5px 15px 0px 15px;
+    color:white;
+    border:0;
+    font-size:1.4em;
+    font-weight:bold;
+    cursor:pointer;
+    outline:none;
+    z-index:10000000000000;
+  }
+
+  a:hover{
+      cursor: pointer;
+  }
+/* fonts = 
+font-family: 'Montserrat', sans-serif;
+font-family: 'Judson', serif;
+font-family: 'Quando', serif;
+*/ 
+
+
+/*colors*/
+.portfolio-1-hex { color: #7B9BB3; }
+.portfolio-2-hex { color: #E3F3FF; }
+.portfolio-3-hex { color: #C9E8FF; }
+.portfolio-4-hex { color: #B39569; }
+.portfolio-5-hex { color: #FFEAC9; }
+
+
+.portfolio-1-rgba { color: rgba(123, 155, 179, 1); }
+.portfolio-2-rgba { color: rgba(227, 243, 255, 1); }
+.portfolio-3-rgba { color: rgba(201, 232, 255, 1); }
+.portfolio-4-rgba { color: rgba(179, 149, 105, 1); }
+.portfolio-5-rgba { color: rgba(255, 234, 201, 1); }
+
+
+.portfolio-1-hsla { color: hsla(205, 26, 59, 1); }
+.portfolio-2-hsla { color: hsla(205, 100, 94, 1); }
+.portfolio-3-hsla { color: hsla(205, 100, 89, 1); }
+.portfolio-4-hsla { color: hsla(35, 32, 55, 1); }
+.portfolio-5-hsla { color: hsla(36, 100, 89, 1); }
+

@@ -1,34 +1,62 @@
 <html lang='en'>
 <head>
     <title>Portfolio</title>
-    <meta name='viewport' content="width=device-width, initial scale=1">
+    <meta name='viewport' content="width=device-width">
     <link rel="stylesheet" href="main.css">
-    <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/normalize/6.0.0/normalize.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Judson&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Quando&display=swap" rel="stylesheet">
+
 </head>
-<body>   
-    <main role='main'>
+<body>
+    <div class='fakemenu'>
+    <button class="hamburger">&#9776;</button>
+    </div>
+    <nav class="navbar">
+            
+            <div class="navbarlinks">
+                <ul>
+                    <li><a href="#bio" class="jumper">bio</a></li>
+                    <li><a href="#projects" class="jumper">projects</a></li>
+                    <li><a href="https://github.com/jasoncorpuz">github</a></li>
+                    <li><a href="https://www.linkedin.com/in/jason-corpuz-b57305192/">linkedIn</a></li>
+                </ul>
+                
+            </div>
+             
+        </nav>
+
         <header role='banner'>
-            <h1>Hero</h1>
+            <h1>Hello! I'm Jason. I am a fullstack developer.</h1>
+            <img src="https://i.imgur.com/cOz3UEH.jpg" alt="headshot">
         </header>
         
-        <section class="bio">
-            <h2>Bio</h2>
+        <section id="bio">
+            <h2>About Me</h2>
+            <p>I am a web developer and soon to be graduate in the Engineering Flex course at Thinkful. I enjoy creatively solving problems and generating solutions using code.  
+                When I am not writing functions and pushing pixels, you can find me playing piano in your favorite venues across town, playing basketball at the gym, or geeking out on the newest video games. 
+            </p>
         </section>
 
 
-        <section class="projects">
-            <h2>Projects</h2>
+        <section id="projects">
+            <h2>Projects:</h2>
+            <h3>Video Game Quiz!</h3>
+            <p>User takes quiz on Video Games. Each time the user answers, the quiz provides correct or incorrect feedback based on their answer. The quiz keeps track of the question number the user is on as well as the score. The end result of the screen is determined by how many questions the user gets correct. 
+            </p>
+            <img src="https://i.imgur.com/iUD6RpH.png" alt="video game quiz">
         </section>
-
-        <section class="screenshots">
-            <h2>screenshots</h2>
-        </section>
-
-        <section class="contact-info">
-            <h3>contact info</h3>
-        </section>
+     
     </main>
+    <footer id='email'>
+        <p>email me: jason.corpuz@live.com</p>
+    </footer>
 
-    
+    <script
+        src="https://code.jquery.com/jquery-3.4.1.min.js" type='text/javascript'>
+    </script>
+
+<script type='text/javascript' src="main.js" ></script>
 </body>
 </html>
