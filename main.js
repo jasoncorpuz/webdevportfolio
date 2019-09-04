@@ -6,5 +6,4 @@ function dropdownMenu() {
     }
 )};
 
-
 $(dropdownMenu);
