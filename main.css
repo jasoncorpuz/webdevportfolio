@@ -31,7 +31,7 @@ html {
     display:block;
 }
 
-.fakemenu {
+.dropdown {
     background-color: #985E6D;
     height: 60px;
     
@@ -198,7 +198,7 @@ img{
       }
   
 
-    .fakemenu{
+    .dropdown{
         display: none;
     }
 
