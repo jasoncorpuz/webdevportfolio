@@ -6,8 +6,8 @@
 }
 
 html {
-    background: rgb(2,0,36);
-    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgb(1, 1, 37) 66%, rgba(112,70,81,1) 100%);
+    background: rgb(2,0,36); 
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgb(1, 1, 37) 66%, rgba(112,70,81,1) 100%); 
 }
 
 .navbar{
@@ -20,7 +20,11 @@ html {
 
 .show {
     top:0px;
-    background-color: #985E6D;
+    background-color: rgba(152, 94, 109, 0.705);
+}
+
+.headshot{
+    border-radius: 15%;
 }
 
 .navbarlinks{
@@ -42,7 +46,7 @@ text-align: center;
 
 header {
     padding: 40px;
-    margin: 15%;
+    margin: 9%;
     
 }
 
@@ -53,6 +57,7 @@ ul{
 ul li {
     display: inline-block;
     color:white;
+    font-family: 'Quando', serif;
 }
 
 h1, h2, h3 {
@@ -95,7 +100,7 @@ section {
 
 img{
     width: 100%;
-    height: auto;
+    height: 20%;
     object-fit: contain;
     margin-top: 20px;
 }
@@ -119,16 +124,25 @@ img{
   a:hover{
     cursor: pointer;
     color:white;
+    opacity: 0.5;
   }
 
 
   a {
       color: white;
       font-size: 20px;
+      text-decoration: none;
   }
 
 .work-links{
     text-align: center
+}
+
+.icon{
+    width:24px;
+    height: 24px;
+    background: white;
+    border-radius: 100%;
 }
 
 @media only screen and (min-width:650px){
@@ -143,12 +157,19 @@ img{
   /*large!*/
   @media only screen and (min-width: 992px){ 
       header{
-          margin:10%;
+          margin:50px;
+      }
+
+      .hero-col{
+        display: flex;
+        flex-direction: column;
+        justify-content: center 
       }
 
       section {
           border: none;
-          display:flex;
+          margin:5%;
+          
       }
 
       h1 {
@@ -166,14 +187,15 @@ img{
           width: 50%;
       }
 
-      .screenshot{
-          width:50%
-      }
+     
       header {
           display: flex;
 
       }
     
+      .screenshot{
+          height: 400px;
+      }
   
 
     .fakemenu{
