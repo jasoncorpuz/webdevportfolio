@@ -1,8 +1,7 @@
 function dropdownMenu() {
     // on this click, show the menu
-    $('button').click(function(event) {
+    $('button').click(() =>  {
         $('.navbar').toggleClass('show');
-        console.log('this is working.')
     }
 )};
 
