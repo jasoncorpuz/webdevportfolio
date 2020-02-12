@@ -5,6 +5,11 @@
     color:white;
 }
 
+h2 {
+ font-size: 25px;
+ line-height: 37px;
+}
+
 html {
     background: rgb(2,0,36); 
     background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgb(1, 1, 37) 66%, rgba(112,70,81,1) 100%); 
@@ -146,12 +151,18 @@ img{
     border-radius: 100%;
 }
 
+p.technologies {
+    font-style: italic;
+}
+
+
 @media only screen and (min-width:650px){
     section{
         border:none;
     }
   }
   
+
   
   
   
