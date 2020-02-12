@@ -5,5 +5,5 @@ A portfolio that showcases fullstack & front-end capstones.
 
 ![screenshot](images/portfolio.png)
 
-##Technologies used: 
+## Technologies used: 
 HTML, CSS, JS, JQuery
