@@ -107,6 +107,10 @@ section {
     background-color: #B39569;
 }
 
+.email { 
+    font-style: italic;
+    display: block;
+}
 
 img {
     width: 100%;
